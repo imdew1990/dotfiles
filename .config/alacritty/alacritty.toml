@@ -1,0 +1,14 @@
+import = ["/Users/mykhailo/.config/alacritty/themes/theme.toml"]
+
+[font]
+size = 21
+
+[font.normal]
+family = "UbuntuMono Nerd Font"
+
+[window]
+decorations = "full"
+[window.padding]
+x = 7
+y = 0
+
