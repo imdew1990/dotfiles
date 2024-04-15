@@ -1,7 +1,7 @@
 import = ["/Users/mykhailo/.config/alacritty/themes/theme.toml"]
 
 [font]
-size = 21
+size = 25
 
 [font.normal]
 family = "UbuntuMono Nerd Font"
