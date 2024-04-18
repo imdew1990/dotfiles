@@ -1,4 +1,4 @@
-import = ["/Users/mykhailo/.config/alacritty/themes/theme.toml"]
+import = ["/Users/mykhailo/.config/alacritty/themes/tokyonight_storm.toml"]
 
 [font]
 size = 25
@@ -7,8 +7,12 @@ size = 25
 family = "UbuntuMono Nerd Font"
 
 [window]
-decorations = "full"
-[window.padding]
-x = 7
-y = 0
+decorations = "transparent"
+opacity = 0.8
+blur = false
+startup_mode = "maximized"
+dynamic_title = true
+padding = {x = 3, y = 22}
 
+[mouse]
+hide_when_typing = true
