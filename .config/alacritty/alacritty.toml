@@ -12,8 +12,7 @@ opacity = 0.8
 blur = false
 startup_mode = "maximized"
 dynamic_title = true
-padding = {x = 0, y = 5}
-
+#padding = {x = 0, y = 5}
 
 [mouse]
 hide_when_typing = true
