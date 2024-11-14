@@ -1,4 +1,4 @@
-import = ["/Users/mykhailo/.config/alacritty/themes/tokyonight_storm.toml"]
+general.import = ["/Users/mykhailo/.config/alacritty/themes/tokyonight_storm.toml"]
 
 [font]
 size = 25
