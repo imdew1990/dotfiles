@@ -1,5 +1,5 @@
-tmux/plugins/
-raycast
+.config/tmux/plugins
+.config/raycast
 
 .DS_Store
 .AppleDouble
@@ -23,4 +23,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
+# Ignore .gnupg without conf data
+.gnupg/
+!.gnupg/gpg.conf
+!.gnupg/gpg-agent.conf
