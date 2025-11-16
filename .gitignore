@@ -23,7 +23,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Ignore .gnupg without conf data
-.gnupg/
-!.gnupg/gpg.conf
-!.gnupg/gpg-agent.conf
+# Ignore all dot-gnupg directories everywhere
+**/dot-gnupg/**
+
+# EXCEPT safe config files
+!**/dot-gnupg/gpg.conf
+!**/dot-gnupg/gpg-agent.conf
