@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = imyk0
+	email = imyk0@imdew.dev
+	signingkey = EC17B5ACE3B5D055
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[gpg]
+	format = openpgp
