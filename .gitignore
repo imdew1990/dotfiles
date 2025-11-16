@@ -24,6 +24,6 @@ Temporary Items
 .apdisk
 
 # Ignore .gnupg without conf data
-.gnupg/
-!.gnupg/gpg.conf
-!.gnupg/gpg-agent.conf
+dot-gnupg/
+!dot-gnupg/gpg.conf
+!dot-gnupg/gpg-agent.conf
