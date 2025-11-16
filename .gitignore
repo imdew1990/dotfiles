@@ -1,4 +1,4 @@
-tmux/plugins
+**/tmux/plugins
 raycast
 
 .DS_Store
