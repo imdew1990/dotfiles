@@ -1,18 +1,21 @@
-general.import = ["/Users/mykhailo/.config/alacritty/themes/tokyonight_storm.toml"]
+[general]
+live_config_reload = true
+import = ["themes/tokyonight_storm.toml"]
 
 [font]
-size = 25
+size = 24
 
 [font.normal]
-family = "UbuntuMono Nerd Font"
+family = "JetBrainsMono Nerd Font"
 
 [window]
-decorations = "none"
-opacity = 0.8
+padding = { x = 0, y = 0 }
+decorations = "Full"
+resize_increments = true
+dynamic_padding = true
 blur = false
 startup_mode = "maximized"
 dynamic_title = true
-#padding = {x = 0, y = 5}
 
 [mouse]
 hide_when_typing = true
