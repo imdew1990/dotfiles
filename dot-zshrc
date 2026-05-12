@@ -26,3 +26,6 @@ gpgconf --launch gpg-agent
 
 #
 export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
+
+# add go/bin to the PATH
+export PATH=$PATH:$HOME/go/bin
