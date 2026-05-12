@@ -1,7 +1,6 @@
 --target=~
 --dotfiles
+--no-folding
 --ignore=.stowrc
 --ignore=DS_Store
---ignore=.git/*
---ignore=.gitignore
 --ignore='^gnupg$'
