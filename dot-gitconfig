@@ -10,3 +10,7 @@
 	gpgSign = true
 [gpg]
 	format = openpgp
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
